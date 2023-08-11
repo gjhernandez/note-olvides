@@ -1,4 +1,4 @@
-# note-olvides
+# Note-Olvides
 A Simple App for taking Notes powered by Mailbutler.
 
 ## Setup
