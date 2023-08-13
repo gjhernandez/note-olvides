@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "note-olvides",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -10,7 +10,13 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@tailwindcss/forms": "^0.5.4",
     "@types/node": "^18.17.3",
-    "nuxt": "^3.6.5"
+    "@types/tailwindcss": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.47.0",
+    "nuxt": "^3.6.5",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
   }
 }
