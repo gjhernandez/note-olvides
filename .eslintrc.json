@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:nuxt/recommended"
+  ],
+  "plugins": [
+    "vue",
+    "prettier"
+  ],
+  "rules": {
+    "vue/multi-word-component-names": "off",
+    "vue/no-multiple-template-root": "off",
+    "@typescript-eslint/no-unused-vars": "off"
+  }
+}
